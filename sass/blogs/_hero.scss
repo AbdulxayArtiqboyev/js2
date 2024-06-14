@@ -1,0 +1,50 @@
+.section{
+    width: 100%;
+    height: 270px;
+    background-image: url(/assets/Rectangle\ 166.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location__back{
+    width: 100%;
+    height: 450px;
+    background-image: url(/assets/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    width: 100%;
+    &__contact{
+        width: 100%;
+        height: 270px;
+       
+    }
+    &__location{
+        width: 100%;
+    }
+    &__contact__item{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+    &__contact__item p{
+        font-family: Inter;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 22.4px;
+     color: 
+     #FFFFFF;
+    }
+    #hero__contact__content{
+font-family: Bebas Neue Cyrillic;
+font-size: 64px;
+font-weight: 400;
+line-height: 78.72px;
+letter-spacing: 0.05em;
+    }
+}
+

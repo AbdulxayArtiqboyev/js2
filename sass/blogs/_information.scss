@@ -1,0 +1,39 @@
+.information{
+    width: 100%;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section1{
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 280px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.section1 p, .section div {
+    color: 
+    #777777;
+}
+
+@media (max-width: 768px) {
+    .container1{
+        flex-direction: column;
+    }
+
+    .section1{
+        margin: 10px auto;
+        width: 100%;
+    }
+}
